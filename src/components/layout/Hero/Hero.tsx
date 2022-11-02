@@ -5,7 +5,7 @@ import { IProps } from './Hero.types';
 // TODO: HEADING COMPONENT
 const Hero = ({}: IProps) => {
   return (
-    <section className="rel flex flex:col@all flex:row@tablet jc:start@all jc:center@tablet w:full gap-x:32 h:calc(100vh-96px-64px)">
+    <section className="rel flex flex:col@all flex:row@tablet jc:start@all jc:end@tablet w:full gap-x:32 h:calc(100vh-96px-64px)">
       <div className="abs flex flex:col jc:start ai:start gap-y:32 pt:10% w:full max-w:lg px:16">
         <h1 className="font:bold font:40@all font:64@xs font:80@desktop mb:16">
           Track all your catch with <span className="color:indigo-50">Rybodex</span>
