@@ -1,4 +1,5 @@
-export const base = 'fixed top:0 left:0 w:100% font-family:general-sans flex jc:center ai:center';
+export const base =
+  'fixed top:0 left:0 w:100% font-family:general-sans flex jc:center ai:center z:1000';
 
 export const container =
   'flex flex:col jc:center r:32 ai:center rel px:16 py:12 m:8@all m:12@2xs m:16@tablet w:full max-w:768 gap-x:32 ~all|200ms|ease';
