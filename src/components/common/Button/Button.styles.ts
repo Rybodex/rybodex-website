@@ -10,7 +10,7 @@ export const button = cva(
         primary:
           'bg:indigo-50 bg:indigo-50/.75:hover color:white/.75 color:white/.95:hover font-weight:regular',
         secondary: '',
-        outlined: 'shadow:0|0|0|2|#DB5461 bg:transparent bg:gray-50/.25:hover',
+        outlined: 'shadow:0|0|0|2|indigo-50 bg:transparent bg:indigo-50/.25:hover',
       },
       roundness: {
         none: 'r:0',
